@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    height: 90px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logo h2{
+    margin-left: 50px;
+    padding: 10px;
+    background-color: rgb(14, 52, 90);
+    color: white;
+    cursor: pointer;
+    letter-spacing: 4px;
+}
+.logo p{
+    border: 1px solid rgb(14, 52, 90);
+    padding: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.logo p:hover{
+    background-color: rgb(14, 52, 90);
+    color: white;
+}
+.menu{
+    font-size: 20px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1000px;
+}
+.menu a {
+  text-decoration: none;
+  color: #000;
+}
+.menu-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.menu-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.hero{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.hero h1{
+    font-size: 50px;
+}
+.banner{
+    display: flex;
+    gap: 60px;
+}
+.banner-left{
+    margin-left: 10px;
+    margin-right: -60px;
+}
+.banner-left h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.banner-left p{
+    font-size: 20px;
+    margin: 18px 0px;
+}
+.banner-left hr{
+    margin-top: 5px;
+}
+.input{
+    line-height: 25px;
+    color: rgb(124, 148, 173);
+}
+.banner-right{
+    margin-left: 50px;
+}
+.banner-area{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.banner-image{
+    display: flex;
+    gap: 30px;
+}
+.image{
+    margin-top: 20px;
+    height: 410px;
+    width: 300px;
+}
+.image img{
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+}
+.image p{
+    justify-content: center;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.image samp{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: rgb(124, 148, 173);
+    cursor: pointer;
+}
+.image button{
+    padding: 10px 110px;
+    background-color: rgb(14, 52, 90);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.footer{
+    background-color: rgb(14, 52, 90);
+    color: white;
+    height: 500px;
+    width: 100%;
+}
+.main-footer{
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+}
+.footer1{
+    font-size: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.footer2{
+    font-size: 20px;
+    padding-top: 80px;
+}
+.footer7{
+    font-size: 20px;
+    padding-top: 80px;
+}
+.footer8{
+    font-size: 20px;
+    padding-top: 80px;
+}
+.main-footer1{
+    display: flex;
+}
+.footer3{
+    font-size: 20px;
+    line-height: 40px;
+    margin-left: 474px;
+}
+.footer4{
+    font-size: 20px;
+    line-height: 40px;
+    margin-left: 118px;
+}
+.footer4 p{
+    cursor: pointer;
+}
+.footer5{
+    font-size: 20px;
+    line-height: 40px;
+    margin-left: 61px;
+}
+.footer5 p{
+    cursor: pointer;
+}
+.footer6{
+    font-size: 20px;
+    margin-left: 158px;
+    width: 378px;
+}
+.footer6 p{
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+.input1{
+    width: 100%;
+    background: transparent;
+    border: 2px solid white;
+    height: 40px;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+.newsletter-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.newsletter-checkbox button{
+    padding: 10px 30px;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+}
+.newsletter-checkbox button:hover{
+    background-color: rgb(14, 52, 90);
+    color: white;
+}
